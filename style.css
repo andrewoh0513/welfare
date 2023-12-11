@@ -1,0 +1,164 @@
+/* Add screen styles below */
+
+@font-face {
+    font-family: Tt;
+    src: url(fonts/TanerArdali-AntikorTextLight.ttf);
+}
+@media (max-width:767px) {
+    .navbar-nav .open .dropdown-menu {
+      background-color:#ff0000;
+    }
+  }
+  
+body{
+    background: #fff3c6;
+    font-family: Tt;
+    border-top: 15px solid #000000;
+    margin: 0 auto;
+    color: #363636;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 3rem;
+    font-weight: bold;
+    margin-left: 2.8rem;
+}
+
+.button {
+    text-align: center;
+    margin-top: 0rem;
+}
+
+nav {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 1rem;
+}
+h2 {
+    text-align: left;
+    padding: 2rem;
+    font-size:1.5rem;
+    background-color:#FC7753;
+    width: 15%;
+    position:absolute; bottom: 19rem;
+}
+
+h4 {
+    text-align: left;
+    padding: 1.5rem;
+    font-size:1.5rem;
+    background-color:#FC7753;
+    width: 11rem;
+    position:relative; top: 1.5rem;
+    font-weight:800;
+}
+
+h3 {
+    font-size: larger;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+h3 p {
+    font-size: medium;
+}
+
+nav svg{
+    cursor: pointer;
+}
+
+.sidenav {
+  height: 23%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #000000;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.cassette {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.email {
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 3rem;
+}
+
+.textarea {
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 1rem;
+}
+
+.submit {
+    padding-left: 2%;
+    margin-top: 1rem;
+}
+
+.about {
+    font-size: large;
+    text-align: justify;
+    padding: 2%;
+    margin-top: 2rem;
+}
+
+.logo a {
+    color: rgb(26, 28, 24);
+    text-decoration: none;
+}
+#player {
+    width: 90%;
+}
+
+.audio {
+    padding-left: 3%;
+    padding-top: 4%;
+    display: flex;
+    align-items: center;
+}
+.audio a {
+    display: flex;
+    margin: 10px 0;
+    color: #6ca1f6;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 1rem;
+}

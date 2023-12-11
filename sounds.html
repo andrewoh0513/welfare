@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Welfare</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script>
+      function openNav() {
+        document.getElementById("links").style.width = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("links").style.width = "0";
+      }
+      </script>
+  </head>
+  <body>
+    <section>
+        <nav>
+          <div class="logo">
+            <a href="index.html">
+            <h1>WELFARE sounds</h1>
+        </a>
+          </div>
+          <div id="links" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">Home</a>
+            <a href="inquiries.html">Inquiries</a>
+            <a href="about.html">About</a>
+          </div>
+          <span onclick="openNav()">
+          <svg
+            width="44"
+            height="18"
+            viewBox="0 0 44 18"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <line class="line" y1="1" x2="40" y2="1" stroke="black" stroke-width="2"></line>
+            <line class="line" y1="9" x2="27" y2="9" stroke="black" stroke-width="2"></line>
+            <line class="line" y1="17" x2="15" y2="17" stroke="black" stroke-width="2"></line>
+          </svg>
+        </span>
+        </nav>
+      </section>
+      <h4>Sounds</h4>
+      <div class="audio">
+<audio id="player" controls>
+    <source src="sounds/up.wav" type="audio/wav">
+</audio>
+<br>
+<a href="sounds/up.wav" download>Download</a>
+</div>
+<div class="audio">
+    <audio id="player" controls>
+        <source src="sounds/Loop (3) 90BPM.wav" type="audio/wav">
+    </audio>
+    <br>
+    <a href="sounds/Loop (3) 90BPM.wav" download>Download</a>
+    </div>
+    <div class="audio">
+        <audio id="player" controls>
+            <source src="sounds/bad.wav" type="audio/wav">
+        </audio>
+        <br>
+        <a href="sounds/bad.wav" download>Download</a>
+        </div>
+        <div class="audio">
+            <audio id="player" controls>
+                <source src="sounds/inter.wav" type="audio/wav">
+            </audio>
+            <br>
+            <a href="sounds/inter.wav" download>Download</a>
+            </div>
+            <div class="audio">
+                <audio id="player" controls>
+                    <source src="sounds/rok.wav" type="audio/wav">
+                </audio>
+                <br>
+                <a href="sounds/rok.wav" download>Download</a>
+                </div>
+            </div>
+            <div class="audio">
+                <audio id="player" controls>
+                    <source src="sounds/hatloop.wav" type="audio/wav">
+                </audio>
+                <br>
+                <a href="sounds/hatloop.wav" download>Download</a>
+                </div>
+  </body>

@@ -1,14 +1,64 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Title</title>
-    <link rel="stylesheet" href="screen.css">
+    <title>Welfare</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script>
+      function openNav() {
+        document.getElementById("links").style.width = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("links").style.width = "0";
+      }
+      </script>
   </head>
   <body>
-    <h1>Heading</h1>
-    <script src="index.js"></script>
+    <section>
+      <nav>
+        <div class="logo">
+          <a href="index.html">
+            <h1>WELFARE sounds</h1>
+        </a>
+        </div>
+        <div id="links" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="index.html">Home</a>
+          <a href="inquiries.html">Inquiries</a>
+          <a href="about.html">About</a>
+        </div>
+        <span onclick="openNav()">
+        <svg
+          width="44"
+          height="18"
+          viewBox="0 0 44 18"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <line class="line" y1="1" x2="40" y2="1" stroke="black" stroke-width="2"></line>
+          <line class="line" y1="9" x2="27" y2="9" stroke="black" stroke-width="2"></line>
+          <line class="line" y1="17" x2="15" y2="17" stroke="black" stroke-width="2"></line>
+        </svg>
+      </span>
+      </nav>
+    </section>
+    <main>
+      <img src="images/cassettegif.gif" alt="cassettegif" style="width:700px;height:700px;" class="cassette">
+      <h2>WELFARE sounds provides free high quality sounds for your creative projects.</h2>
+      <div class="button">
+        <a href="sounds.html">
+      <button type="button" class="btn btn-info">Explore Sounds</button>
+    </a>
+    </div>
+    <h3>
+      100% royalty free
+      <p>Use our sounds anywhere.</p>
+    </h3>
+    </main>
   </body>
 </html>
