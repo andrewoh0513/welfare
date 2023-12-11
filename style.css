@@ -26,9 +26,24 @@ h1 {
     margin-left: 2.8rem;
 }
 
+.button1 {
+    margin-top: 0rem;
+    background-color: #66D7D1;
+    border: none;
+    color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-block;
+  text-align: center;
+}
 .button {
     text-align: center;
-    margin-top: 0rem;
+    position:relative; bottom: 6rem;
+}
+.button a {
+    color: rgb(26, 28, 24);
+    text-decoration: none;
 }
 
 nav {
@@ -56,13 +71,13 @@ h4 {
     font-weight:800;
 }
 
-h3 {
+.royalty {
     font-size: larger;
     text-align: center;
     padding-top: 3rem;
 }
 
-h3 p {
+.royalty p {
     font-size: medium;
 }
 
@@ -145,7 +160,7 @@ nav svg{
     text-decoration: none;
 }
 #player {
-    width: 90%;
+    width: 40%;
 }
 
 .audio {
@@ -154,11 +169,15 @@ nav svg{
     display: flex;
     align-items: center;
 }
+
 .audio a {
-    display: flex;
-    margin: 10px 0;
     color: #6ca1f6;
     text-decoration: none;
     font-weight: bold;
     padding-left: 1rem;
+}
+.audioback {
+    background-color: #4B5043;
+    margin-top: 1.5rem;
+    height: 58rem;
 }
