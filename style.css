@@ -39,7 +39,7 @@ h1 {
 }
 .button {
     text-align: center;
-    position:relative; bottom: 6rem;
+    position:relative; bottom: 27rem;
 }
 .button a {
     color: rgb(26, 28, 24);
@@ -50,7 +50,7 @@ nav {
     display:flex;
     align-items: center;
     justify-content: space-between;
-    margin-right: 1rem;
+    margin-right: 2rem;
 }
 h2 {
     text-align: left;
@@ -58,7 +58,7 @@ h2 {
     font-size:1.5rem;
     background-color:#FC7753;
     width: 15%;
-    position:absolute; bottom: 19rem;
+    position:relative; bottom: 33rem;
 }
 
 h4 {
@@ -74,7 +74,8 @@ h4 {
 .royalty {
     font-size: larger;
     text-align: center;
-    padding-top: 3rem;
+    position: relative;
+    bottom: 19rem;
 }
 
 .royalty p {
